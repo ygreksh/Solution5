@@ -22,7 +22,7 @@ namespace IQueryableSample
             */
 
             var rand = new Random();
-            Person[] crowd = new Person[10];
+            Person[] crowd = new Person[10]; //для понимания работы достаточно 10 экземпляров, 100 - слишком много
 
             for (int i = 0; i < crowd.Length; i++)
             {
